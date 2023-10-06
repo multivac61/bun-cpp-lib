@@ -1,0 +1,21 @@
+{
+  "name": "my-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "build/**/*.node"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/web-bluetooth": "^0.0.18",
+    "webbluetooth": "^3.1.0"
+  }
+}
